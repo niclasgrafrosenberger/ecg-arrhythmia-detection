@@ -1,0 +1,16 @@
+name: ecg-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - xgboost
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - wfdb
